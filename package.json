@@ -2,7 +2,7 @@
   "name": "team-open-minds-club",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://open-minds.github.io",
+  "homepage": "http://team-open-minds.club",
   "dependencies": {
     "antd": "3.18.1",
     "gh-pages": "2.0.1",
