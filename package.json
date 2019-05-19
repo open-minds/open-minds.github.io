@@ -5,6 +5,7 @@
   "homepage": "http://team-open-minds.club",
   "dependencies": {
     "antd": "3.18.1",
+    "gh-pages": "2.0.1",
     "husky": "2.3.0",
     "lint-staged": "8.1.7",
     "prettier": "1.17.1",
@@ -19,8 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "now-build": "react-scripts build",
-    "now-dev": "react-scripts start"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
