@@ -1,8 +1,8 @@
 {
   "name": "team-open-minds-club",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
-  "homepage": "http://team-open-minds.club",
+  "homepage": "https://team-open-minds.club",
   "dependencies": {
     "antd": "3.18.1",
     "gh-pages": "2.0.1",
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
