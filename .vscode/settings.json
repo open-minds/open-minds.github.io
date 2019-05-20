@@ -1,9 +1,0 @@
-{
-  "editor.tabSize": 2,
-  "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact"
-  ]
-}
