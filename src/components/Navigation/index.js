@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { TimelinePage, Index as IndexPage } from '../pages';
+import { Timeline, Index } from '../pages';
 import Navbar from './Navbar';
 
 function Navigation() {
@@ -9,10 +9,10 @@ function Navigation() {
       <Navbar />
       <Switch>
         <Route path="/timeline">
-          <TimelinePage />
+          <Timeline />
         </Route>
         <Route path="/">
-          <IndexPage />
+          <Index />
         </Route>
       </Switch>
     </Router>

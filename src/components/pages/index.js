@@ -1,4 +1,4 @@
-import TimelinePage from './timeline';
+import Timeline from './Timeline';
 import Index from './Index';
 
-export { TimelinePage, Index };
+export { Timeline, Index };
