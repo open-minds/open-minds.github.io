@@ -580,7 +580,6 @@ h6 {
   display: flex;
   width: 100%;
   float: right;
-  border: red 1px solid;
 }
 
 #about .about-extra h4 {
@@ -1399,7 +1398,6 @@ h6 {
     width: 60%;
     margin-left: auto !important;
     margin-right: auto !important;
-    border: blue 1px solid;
   }
 }
 
