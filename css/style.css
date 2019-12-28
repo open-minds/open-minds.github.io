@@ -175,7 +175,7 @@ h6 {
   position: relative;
   background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
-  padding: 200px 0 120px 0;
+  padding: 200px 0 200px 0;
 }
 
 #intro .intro-img {
@@ -483,9 +483,9 @@ h6 {
 
 #about {
   background: #fff;
-  padding: 60px 0;
+  padding: 30px 0;
 }
-
+ 
 #about .about-container .background {
   margin: 20px 0;
 }
@@ -573,7 +573,14 @@ h6 {
 }
 
 #about .about-extra {
-  padding-top: 60px;
+  padding-top: 10px;
+}
+
+#about .about-extra img{
+  display: flex;
+  width: 100%;
+  float: right;
+  border: red 1px solid;
 }
 
 #about .about-extra h4 {
@@ -1367,11 +1374,12 @@ h6 {
   #intro {
     padding: 140px 0 60px 0;
   }
-
+  
   #intro .intro-img {
-    width: 80%;
+    width: 40%;
     float: none;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 0 auto;
+    
   }
 
   #intro .intro-info {
@@ -1384,6 +1392,15 @@ h6 {
   #why-us .card {
     margin: 0;
   }
+
+  #about .about-extra img{
+    display: flex;
+    float: none;
+    width: 60%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border: blue 1px solid;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1393,6 +1410,16 @@ h6 {
 }
 
 @media (max-width: 767px) {
+  #intro {
+    padding: 120px 0 50px 0;
+  }
+
+  #intro .intro-img {
+    width: 40%;
+    float: none;
+    margin: 0 auto 10px auto;
+  }
+
   #intro .intro-info {
     width: 100%;
   }
@@ -1400,6 +1427,12 @@ h6 {
   #intro .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
+  }
+
+  #about .about-extra img{
+    width: 40%;
+    float: none;
+    margin: 0 auto 10px auto;
   }
 
   .section-header p {
@@ -1424,6 +1457,18 @@ h6 {
 
 @media (max-width: 574px) {
   #intro {
-    padding: 100px 0 20px 0;
+    padding: 50px 0 O 0;
+  }
+
+  #intro .intro-img {
+    width: 50%;
+    float: none;
+    margin: 0 auto 0 auto;
+  }
+
+  #about .about-extra img{
+    width: 50%;
+    float: none;
+    margin: 0 auto 0 auto;
   }
 }
