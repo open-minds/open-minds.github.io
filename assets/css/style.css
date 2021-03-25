@@ -865,11 +865,12 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  height:100%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
-  position: relative;
+  position: relative;s
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
