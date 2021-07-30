@@ -1,4 +1,4 @@
-2<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1101,7 +1101,7 @@ We strive for an open-minded generation, we spread the open-source culture.">
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Since 2020</strong>. All Rights Reserved
+        &copy; Copyright <strong>Since <span id='current-year'></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -1116,7 +1116,7 @@ We strive for an open-minded generation, we spread the open-source culture.">
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top" aria-label="Back to top button"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
+  <!-- Uncomment below if you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
   <!-- JavaScript Libraries -->
@@ -1145,6 +1145,12 @@ We strive for an open-minded generation, we spread the open-source culture.">
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+    
+  <!-- Script to get current date dynamically -->
+  <script type="text/javascript">
+    var currentDate = new Date().getFullYear();
+    document.getElementById('current-year').innerHTML = currentDate;
+  </script>
 
 </body>
 
