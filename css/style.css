@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #0056b3;
   transition: 0.5s;
 }
 
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #0056b3;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -88,7 +88,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #007bff;
+  border-top: 6px solid #0056b3;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -214,8 +214,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #0056b3;
+  border: 2px solid #0056b3;
   color: #fff;
 }
 
@@ -230,8 +230,8 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #0056b3;
+  border-color: #0056b3;
   color: #fff;
 }
 
@@ -273,7 +273,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #0056b3;
   text-decoration: none;
 }
 
@@ -311,7 +311,7 @@ h6 {
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #007bff;
+  color: #0056b3;
 }
 
 .main-nav .drop-down > a:after {
@@ -484,7 +484,7 @@ h6 {
   background: #fff;
   padding: 30px 0;
 }
- 
+
 #about .about-container .background {
   margin: 20px 0;
 }
@@ -537,17 +537,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #0056b3;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #0056b3;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #0056b3;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -575,7 +575,7 @@ h6 {
   padding-top: 10px;
 }
 
-#about .about-extra img{
+#about .about-extra img {
   display: flex;
   width: 100%;
   float: right;
@@ -638,7 +638,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #0056b3;
 }
 
 #services .description {
@@ -745,7 +745,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #0056b3;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -755,7 +755,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #0056b3;
   color: #fff;
 }
 
@@ -822,7 +822,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: #0056b3;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -841,7 +841,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #0056b3;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -858,8 +858,18 @@ h6 {
   background: #3395ff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -926,7 +936,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color: #0056b3;
 }
 
 /* Team Section
@@ -946,10 +956,9 @@ h6 {
   overflow: hidden;
 }
 
-#team .member img{
-  max-width:100%;
-  width: 100% !important;
-  height:160px !important;
+#team .member img {
+  max-width: 100%;
+  max-height: 160px !important;
 }
 
 .col-center {
@@ -1019,7 +1028,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #007bff;
+  color: #0056b3;
 }
 
 #team .member .social i {
@@ -1093,7 +1102,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #0056b3;
 }
 
 #contact .contact-about p {
@@ -1111,7 +1120,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #007bff;
+  color: #0056b3;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1120,11 +1129,11 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid #0056b3;
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
+  background: #0056b3;
   color: #fff;
 }
 
@@ -1134,7 +1143,7 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #0056b3;
   float: left;
   line-height: 1;
 }
@@ -1146,8 +1155,8 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #0056b3;
+  border: 1px solid #0056b3;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1187,7 +1196,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #0056b3;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1244,7 +1253,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #0056b3;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1315,7 +1324,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #0056b3;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1372,12 +1381,11 @@ h6 {
   #intro {
     padding: 140px 0 60px 0;
   }
-  
+
   #intro .intro-img {
     width: 40%;
     float: none;
     margin: 0 auto 0 auto;
-    
   }
 
   #intro .intro-info {
@@ -1391,7 +1399,7 @@ h6 {
     margin: 0;
   }
 
-  #about .about-extra img{
+  #about .about-extra img {
     display: flex;
     float: none;
     width: 60%;
@@ -1426,7 +1434,7 @@ h6 {
     margin-bottom: 30px;
   }
 
-  #about .about-extra img{
+  #about .about-extra img {
     width: 40%;
     float: none;
     margin: 0 auto 10px auto;
@@ -1463,7 +1471,7 @@ h6 {
     margin: 0 auto 0 auto;
   }
 
-  #about .about-extra img{
+  #about .about-extra img {
     width: 50%;
     float: none;
     margin: 0 auto 0 auto;
